@@ -1,0 +1,62 @@
+section {
+  padding: 60px 0;
+}
+section .menu ul {
+  list-style: none;
+}
+section .menu ul li a {
+  text-decoration: none;
+  color: #3e4d68;
+  font-size: 18px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 12px 20px;
+  width: 200px;
+  margin: 10px 0;
+  transition: all 0.3s ease;
+  display: block;
+}
+section .menu ul li a:hover {
+  background-color: #ff5723;
+}
+section .menu ul li a.active {
+  background-color: #ff5723;
+}
+section .wrapper {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+section .wrapper .item h3 {
+  color: #3e4d68;
+  font-size: 35px;
+}
+section .wrapper .item p {
+  color: #3e4d68;
+}
+section .wrapper .item a {
+  color: var(--black-color-0);
+  background: var(--bs-body-bg);
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 9px;
+  margin-bottom: 13px;
+  padding: 8px 14px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+section .wrapper .img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+section .wrapper .img-wrapper img {
+  border-radius: 10px;
+}
+section .wrapper.active {
+  visibility: visible;
+  opacity: 1;
+}/*# sourceMappingURL=style.css.map */
